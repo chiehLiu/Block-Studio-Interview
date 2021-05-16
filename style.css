@@ -9,25 +9,190 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Ubuntu';
+    position: relative;
+}
+
+
+.header-full-bg {
+    height: 52rem;
+    width: 100%;
+    position: absolute;
+    z-index: -100000;
+}
+
+.header {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    line-height: 21px
 }
 
 .logo {
     height: 49px;
     width: 27px;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
 }
 
-/* .facebook {
+.branding {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 2rem;
+    list-style-type: none;
+    /* margin: 1rem; */
+}
+
+.about {
+    margin: 2rem;
+    border-bottom: 1px solid #FFFFFF;
+    padding: .3rem;
+}
+
+.website {
+    margin: 2rem;
+}
+
+.branding-aTag {
+    margin: 2rem;
+}
+
+.branding-aTag a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hamburger-menu {
+    width: 21px;
+    height: 20px;
+    position: fixed;
+    top: 7%;
+    right: 5%;
+    z-index: 300;
+}
+
+.hamburger-menu .menu {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.hamburger-menu .menu-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    transform-origin: right;
+    transition: all 0.5s 0.5s;
+}
+
+.showcase-item {
+    position: relative;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title h1 {
+    height: 128px;
+    width: 1037px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -0.21px;
+    line-height: 64px;
+    text-align: center;
+    text-shadow: 0 2px 20px 0 rgba(142, 142, 142, 0.8);
+}
+
+.main-title p {
+    height: 78px;
+    width: 745px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    text-align: center;
+    text-shadow: 0 2px 20px 0 rgba(142, 142, 142, 0.8);
+    margin-bottom: 8.375rem;
+}
+
+.copyright-banner {
+    height: 16px;
+    width: 311px;
+    transform: rotate(90deg);
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    /* font-size: 11px; */
+    font-weight: 500;
+    letter-spacing: 0.34px;
+    line-height: 16px;
+    position: absolute;
+    top: 5rem;
+    left: -23rem;
+}
+
+
+.facebook {
     height: 18px;
     width: 8px;
-    background-color: #FFFFFF;
-} */
+    list-style-type: none;
+    margin-left: 2.875rem;
+}
+
+.social-media {
+    display: flex;
+    /* padding: 5.9375rem; */
+    position: absolute;
+    top: 25rem;
+    left: -1.4rem;
+}
 
 .ig {
     height: 20px;
     width: 20px;
+    margin-left: 5.9375rem;
+    list-style-type: none;
 }
 
 .youtube {
     height: 17px;
     width: 22px;
+    list-style-type: none;
+    margin-left: 5.9375rem;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll p {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.scroll-bottom-line {
+    height: 59px;
+    width: .1px;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    position: absolute;
+    background-color: #FFFFFF;
 }
