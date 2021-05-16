@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu';
-    /* height: 100%; */
 }
 
 body {
@@ -214,6 +213,8 @@ body {
     background-color: #FFFFFF;
 }
 
+/* card-area */
+
 .work-area {
     background-color: #FFFFFF;
     color: #000000;
@@ -273,7 +274,7 @@ body {
     width: 24.125rem;
     color: #000000;
     font-family: 'Ubuntu';
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 42px;
@@ -285,7 +286,7 @@ body {
     width: 20.75rem;
     color: #000000;
     font-family: 'Ubuntu';
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 42px;
@@ -307,8 +308,8 @@ body {
 }
 
 .arrow-line {
-    height: 6.46px;
-    width: 27.1px;
+    height: 0.40375rem;
+    width: 1.69375rem;
     border-bottom: 1px solid #4A4A4A;
     position: absolute;
     top: 20rem;
@@ -318,8 +319,8 @@ body {
 .arrow-peak {
     border-right: 1px solid #4A4A4A;
     position: absolute;
-    height: 6.46px;
-    width: 27.1px;
+    height: 0.40375rem;
+    width: 1.69375rem;
     left: 85%;
     top: 83%;
     transform: rotate(345deg);
@@ -448,4 +449,65 @@ body {
     margin: 1rem auto;
     font-weight: 500;
     border-radius: 2px;
+}
+
+/* footer-area */
+
+
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.footer-logo {
+    position: relative;
+    top: .1rem;
+    left: -10rem;
+    height: 2rem;
+    width: 1rem;
+}
+
+.footer-branding-area {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -29rem;
+}
+
+.footer-branding-area li {
+    margin: 0 5.4rem;
+}
+
+.footer-social-media {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.footer-social-media li {}
+
+.info {
+    margin: .8rem 4rem 1.8rem 8.7rem;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #ffffff;
+    margin: 1rem auto;
+}
+
+.last-copyright {
+    text-align: center;
+    padding-bottom: 1rem;
 }
