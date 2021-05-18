@@ -23,7 +23,7 @@ body {
 .header {
     display: flex;
     padding: .7rem;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
     font-family: 'Ubuntu';
@@ -40,6 +40,7 @@ body {
     height: 3.0625rem;
     max-width: 100%;
 }
+
 
 .branding {
     display: flex;
@@ -103,7 +104,6 @@ body {
     background-color: #ffffff;
     z-index: 700;
 }
-
 
 
 .showcase-item {
@@ -505,7 +505,7 @@ body {
     background-color: #000000;
     color: #FFFFFF;
     position: relative;
-
+    margin: 0 auto;
 }
 
 .footer-nav {
@@ -555,7 +555,7 @@ body {
 }
 
 .info div {
-    padding: .2rem;
+    padding: .1rem;
 }
 
 .bottom-line {
