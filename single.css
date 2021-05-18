@@ -95,14 +95,37 @@ body {
     text-align: center;
 }
 
+
+
+.item-area {
+    display: flex;
+    padding: 6rem 0;
+    justify-content: flex-end;
+}
+
+.item-area::before {
+    content: '';
+    display: inline-block;
+    background-color: #FAFAFA;
+    z-index: -29999;
+    width: 90rem;
+    height: 24.5rem;
+    margin: auto;
+    position: absolute;
+    top: 49.45rem;
+    right: 14.425rem;
+}
+
 .B-img {
     filter: invert(92%) sepia(6%) saturate(30%) hue-rotate(204deg) brightness(1017%) contrast(106%);
     height: 20.5rem;
     width: 15rem;
-}
-
-.item-area {
-    display: flex;
+    margin-top: -4.1rem;
+    margin-right: 90rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .item-area-title {
@@ -110,30 +133,122 @@ body {
     width: 590px;
     color: #000000;
     font-family: 'Ubuntu';
-    font-size: 1.5rem;
+    font-size: .7rem;
     letter-spacing: 0;
     line-height: 55px;
+    position: absolute;
+    left: 23rem;
+    margin-top: 1.2rem;
+}
+
+.item-area-title::after {
+    content: '';
+    width: 48%;
+    border-bottom: 2px solid #000000;
+    display: inline-block;
 }
 
 .item-area-title h1 {
+    font-size: 3rem;
     font-weight: 500;
+}
+
+.item-area h4 {
+    color: #9B9B9B;
+    font-weight: 300;
 }
 
 .seperate-line {
     width: 1.5rem;
     border-bottom: 2px solid #000000;
-    margin: 2.5rem 0 1rem 1rem;
+    margin: 2rem 0 1rem 0;
     align-items: left;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    width: 16rem;
+}
+
+.status {
+    margin-left: 2.3rem;
+}
+
+.location {
+    margin-left: 2rem;
+
 }
 
 .award-status {
     display: flex;
 }
+
+.award-info {
+    position: absolute;
+    left: 55.5%;
+}
+
+.award-info p {
+    margin-top: .4rem;
+}
+
+
+.award-item-head {
+    display: flex;
+    height: 36.25rem;
+    width: 74.75rem;
+    margin: 0 auto;
+}
+
+.award-item-head h3 {
+    height: 26px;
+    width: 42px;
+    color: #9B9B9B;
+    font-family: Ubuntu;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.award-item-head p {
+    display: inline-block;
+    height: 156px;
+    width: 590px;
+    color: #000000;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.award-item-text {
+    flex: 3;
+    margin-left: 1rem;
+}
+
+.award-item-head img {
+    flex: 2;
+    height: 23.6875rem;
+    width: 30.375rem;
+    margin-right: .2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -166,9 +281,6 @@ body {
     font-weight: 500;
     border-radius: 2px;
 }
-
-
-
 
 
 
