@@ -38,6 +38,16 @@ body {
     margin-left: 159.5%;
 }
 
+@media(max-width:1750px) {
+    .branding {
+        margin-left: 145.5%;
+    }
+
+    .single-logo {
+        margin-left: -5rem;
+    }
+}
+
 .about {
     margin: 2rem;
     padding-bottom: .2rem;
@@ -66,6 +76,12 @@ body {
     transform: translateX(50%);
     transform: translateY(0);
     margin-right: 2rem;
+}
+
+@media(max-width:1700px) {
+    .hamburger-menu {
+        margin-right: -2rem;
+    }
 }
 
 .hamburger-menu .menu {
@@ -101,6 +117,7 @@ body {
     display: flex;
     padding: 6rem 0;
     justify-content: flex-end;
+    position: relative;
 }
 
 .item-area::before {
@@ -121,8 +138,8 @@ body {
     height: 20.5rem;
     width: 15rem;
     margin-top: -4.1rem;
-    margin-right: 90rem;
-    position: relative;
+    margin-right: 52rem;
+    /* position: relative; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -136,9 +153,8 @@ body {
     font-size: .7rem;
     letter-spacing: 0;
     line-height: 55px;
-    position: absolute;
-    left: 23rem;
-    margin-top: 1.2rem;
+    margin-top: .5rem;
+    transform: translateX(-162%)
 }
 
 .item-area-title::after {
@@ -146,7 +162,21 @@ body {
     width: 48%;
     border-bottom: 2px solid #000000;
     display: inline-block;
+    position: relative;
+    top: -.8rem;
 }
+
+@media(max-width:1640px) {
+    .B-img {
+        margin-right: 44rem;
+    }
+
+    .item-area-title {
+        transform: translateX(-140.8%)
+    }
+}
+
+
 
 .item-area-title h1 {
     font-size: 3rem;
