@@ -166,7 +166,7 @@ body {
     top: -.8rem;
 }
 
-@media(max-width:1640px) {
+@media(max-width:1680px) {
     .B-img {
         margin-right: 44rem;
     }
