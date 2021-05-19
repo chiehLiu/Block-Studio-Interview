@@ -129,8 +129,15 @@ body {
     height: 24.5rem;
     margin: auto;
     position: absolute;
-    top: 49.45rem;
+    top: -.2rem;
     right: 14.425rem;
+}
+
+@media (max-width:1680px) {
+    .item-area::before {
+        top: -.2rem;
+        right: 6.22rem;
+    }
 }
 
 .B-img {
