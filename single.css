@@ -136,7 +136,14 @@ body {
 @media (max-width:1680px) {
     .item-area::before {
         top: -.2rem;
-        right: 6.22rem;
+        right: 7.44rem;
+    }
+}
+
+@media (max-width:1440px) {
+    .item-area::before {
+        top: -.2rem;
+        right: 0rem;
     }
 }
 
@@ -173,6 +180,8 @@ body {
     top: -.8rem;
 }
 
+
+
 @media(max-width:1680px) {
     .B-img {
         margin-right: 44rem;
@@ -183,6 +192,15 @@ body {
     }
 }
 
+@media(max-width:1440px) {
+    .B-img {
+        margin-right: 44rem;
+    }
+
+    .item-area-title {
+        transform: translateX(-167%)
+    }
+}
 
 
 .item-area-title h1 {
