@@ -323,10 +323,10 @@ body {
 .work-area-bottom {
     color: #4A4A4A;
     font-family: 'Ubuntu';
-    width: 37rem;
+    width: 35rem;
     letter-spacing: 0;
     line-height: 36px;
-    margin: 9.375rem auto 8.625rem;
+    margin: 5.8125rem auto 8.625rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -341,7 +341,7 @@ body {
 .vertical-line {
     border-right: 1px solid #4A4A4A;
     height: 10rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 

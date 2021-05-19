@@ -40,7 +40,7 @@ body {
 
 .logo {
     height: 3.0625rem;
-    /* max-width: 100%; */
+    margin-left: -3.2rem;
 }
 
 
@@ -131,6 +131,7 @@ body {
     line-height: 4rem;
     text-align: center;
     text-shadow: 0 2px 20px 0 rgba(142, 142, 142, 0.8);
+    margin-bottom: 1.5rem;
 }
 
 
@@ -228,11 +229,11 @@ body {
 .work-area-h1 {
     margin-top: 6rem;
     margin: 6rem auto 3.9375rem;
-    height: 64px;
-    width: 1037px;
+    height: 3.6rem;
+    width: 64.8rempx;
     color: #000000;
     font-family: 'Ubuntu';
-    font-size: 6rem;
+    font-size: 3.5rem;
     font-weight: bold;
     letter-spacing: -0.21px;
     line-height: 64px;
@@ -492,12 +493,18 @@ body {
     margin-bottom: 1rem;
 }
 
+.work-area-bottom-h2 h2 {
+    font-weight: 400;
+}
+
 .work-area-bottom-h2 div {
     width: 14.5rem;
     border: 1px solid #4A4A4A;
     margin: 1rem auto;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 2px;
+    padding: .1rem;
+    font-size: 1.2rem;
 }
 
 /* footer-area */
@@ -515,8 +522,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 3rem;
-    margin-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 0;
 
 }
 
@@ -524,7 +531,7 @@ body {
     height: 2rem;
     width: 1rem;
     margin-left: -5rem;
-    margin-bottom: 8.3rem;
+    margin-bottom: 5.3rem;
 }
 
 .footer-branding-area {
@@ -551,7 +558,7 @@ body {
     align-items: center;
     width: 10%;
     margin-right: -5%;
-    margin-bottom: 8.3rem;
+    margin-bottom: 5.3rem;
 }
 
 .footer-social-media li {
@@ -559,7 +566,7 @@ body {
 }
 
 .info {
-    margin: 2.5rem 10rem 0 -20rem;
+    margin: 1rem 10rem 0 -20rem;
 }
 
 .info div {
@@ -568,7 +575,7 @@ body {
 
 .bottom-line {
     border-bottom: 1px solid #ffffff;
-    margin: 1rem auto;
+    margin: 0 auto;
 }
 
 .last-copyright {
