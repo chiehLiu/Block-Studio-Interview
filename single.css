@@ -84,6 +84,12 @@ body {
     }
 }
 
+@media(max-width:1450px) {
+    .hamburger-menu {
+        margin-right: -10rem;
+    }
+}
+
 .hamburger-menu .menu {
     display: flex;
     height: 100%;
